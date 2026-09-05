@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(darkcyan, royalblue);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+    padding: 5%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    min-height: 80vh;
+    width: 70%;
+    height: 80%;
+}
+
+.row{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 50px;
+    background-color: #fff;
+    border: solid 1px darkcyan;
+}
+
+.row button{
+    background-color: darkcyan;
+    border-radius: 50px;
+    font-size: medium;
+    color: #fff;
+    padding: 2%;
+    border: none;
+}
+
+.row input{
+    flex: 1;
+    border-radius: 50px;
+    font-size: medium;
+    padding: 2%;
+    border: none;
+    outline: none;
+}
+
+.tareas{
+    width: 80%;
+    padding: 2% 0;
+    margin-top: 5%;
+}
+
+ul li{
+    font-size: medium;
+    position: relative;
+    padding: 2%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    list-style: none;
+    font-size: medium;
+    display: inline-flex;
+    align-self: center;
+    margin-bottom: 2%;
+    
+}
+
+.material-symbols-outlined{
+    color: darkcyan;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 10%;
+    height: 100%;
+    font-size: medium;
+    color: #555;
+    line-height: normal;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+ul li span:hover{
+    background-color:#dcdbdb;
+    border-radius: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.title span{
+    margin-right: 2%;
+
+}
+
+#icono{
+    font-size: 250%;
+}

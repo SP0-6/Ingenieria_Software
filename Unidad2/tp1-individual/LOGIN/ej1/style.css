@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+form{
+    box-shadow: 3px #656363;
+    align-self: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    gap:10px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 5px;
+}
+
+.campo-texto{
+    border: 1px solid #ccc;
+    width: 80%;
+    color: #656363;
+    padding: 10px;
+    font-size: medium;
+}
+
+.campo-texto:focus{
+    color: black;
+}
+
+form label{
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+}
+
+.box-visible{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+form img{
+    height: 15%;
+    width: 15%;
+}
+
+form button{
+    background-color: #6673ff;
+    padding: 2%;
+    cursor: pointer;
+    width: 70%;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    font-size: medium;
+}
+
+form button:hover{
+    opacity: .75;
+}
+
+body h1{
+    display: inline;
+}

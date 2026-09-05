@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+        <div class="form-box login">
+            <h1  class="animation" style="--i:0;">Inicio de sesión</h1>
+            <form action="#">
+                
+                <div class="input-box animation" style="--i:1;">
+                    
+                    <input type="text" class="campo-texto" id="firstname-input" name="firstname"  required>
+                    <label for="username-input">Usuario</label>
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:2;">
+                    
+                    <input type="password" class="campo-texto" id="password-input" name="password" required>
+                    <label for="password-input">Contraseña</label>
+                    <i class="bx bx-lock"></i>
+                </div>
+
+                <button type="submit" id="submit" class="btn animation" style="--i:3;">Iniciar sesión</button>
+                <div class="logreg-link animation" style="--i:4;">
+                    <p><a class="login-link" href="#">No tengo una cuenta</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-text login">
+            <h1 class="animation" style="--i:0;">Bienvenido de nuevo</h1>
+            <p class="animation" style="--i:1;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, itaque debitis. </p>
+        </div>
+
+        <div class="form-box signup">
+            <h1 class="animation" style="--i:17; ; --j:0">Registrarse</h1>
+            <form action="#">
+                
+                <div class="input-box animation" style="--i:18; --j:1">
+                    
+                    <input type="text" class="campo-texto" id="firstname-input" name="firstname"  required>
+                    <label for="username-input">Usuario</label>
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:19; --j:2">
+                    
+                    <input type="email" class="campo-texto" id="email-input" name="email"  required>
+                    <label for="email-input">Email</label>
+                    <i class="bx bx-envelope"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:20; --j:3">
+                    
+                    <input type="password" class="campo-texto" id="password-input" name="password" required>
+                    <label for="password-input">Contraseña</label>
+                    <i class="bx bx-lock"></i>
+                </div>
+
+                <button type="submit" id="submit" class="btn animation" style="--i:21;--j:4">Iniciar sesión</button>
+                <div class="logreg-link animation" style="--i:22;--j:5">
+                    <p><a class="signup-link" href="#">Ya tengo una cuenta</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-text signup">
+            <h1 class="animation" style="--i:17; --j:0">Bienvenido</h1>
+            <p class="animation" style="--i:18; --j:1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, itaque debitis. </p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Inicio de sesión</h1>
+        <p id="msj-error"></p>
+        <form>
+
+            <div class="input-box">
+                <label for="email-input">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                </label>
+                <input type="email" class="campo-texto" id="email-input" name="email" placeholder="usuario@email.com" required>
+            </div>
+
+            <div class="input-box">
+                <label for="password-input">
+                    <span class="material-symbols-outlined">
+                        lock
+                    </span>
+                </label>
+                <input type="password" class="campo-texto" id="password-input" name="password" placeholder="Contraseña" required>
+            </div>
+
+            <div class="box-visible">
+                <input type="checkbox" id="visible">
+                <label for="visible">Mostrar contraseña</label>
+            </div>
+
+            <button type="submit" id="submit">Iniciar Sesión</button>
+        </form>
+        <a href="signup.html">No tengo una cuenta: Registrarme</a>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+    <div class="container">
+        <div class="lista">
+            <div class="title">
+                <span id="icono" class="material-symbols-outlined">
+                checklist
+                </span>
+                <h1>Lista de tareas</h1>
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Agregue la tarea">
+                <button onclick="addTarea()" >Agregar</button>
+            </div>
+            <div class="tareas">
+                <ul id="list-container">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="to_do.js"></script>
+</body>
+</html>

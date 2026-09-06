@@ -1,0 +1,210 @@
+.navigation-menu {
+  min-width: 640px;
+  max-width: 780px;
+
+  padding: 6px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  left: 330px;
+  top: 40px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+
+  box-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05),
+    0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   PARTE IZQUIERDA
+   ========================= */
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+/* =========================
+   LOGO + NOMBRE
+   ========================= */
+
+.brand {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  padding: 4px;
+
+  gap: 4px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+
+  position: relative;
+}
+
+/*
+  En Figma los dos SVG están
+  superpuestos.
+*/
+
+.logo-svg {
+  position: absolute;
+
+  top: 2px;
+  left: 2px;
+}
+
+.logo-svg-one {
+  width: 20px;
+  height: 20px;
+}
+
+.logo-svg-two {
+  width: 16px;
+  height: 20px;
+}
+
+.brand-name {
+  width: fit-content;
+
+  margin: 0;
+
+  color: #000;
+
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+
+  letter-spacing: -0.05em;
+}
+
+/* =========================
+   LINKS
+   ========================= */
+
+.nav-links {
+  display: flex;
+  align-items: flex-start;
+
+  width: fit-content;
+}
+
+.nav-links button {
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6px 16px;
+
+  gap: 8px;
+
+  width: fit-content;
+
+  border: none;
+  border-radius: 99px;
+
+  background: transparent;
+
+  color: #000;
+
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+
+  overflow: hidden;
+}
+
+.nav-links button:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* =========================
+   PARTE DERECHA
+   ========================= */
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+}
+
+.nav-actions button {
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6px 16px;
+
+  gap: 8px;
+
+  width: fit-content;
+
+  border: none;
+  border-radius: 99px;
+
+  background: transparent;
+
+  color: #000;
+
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05),
+    0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-actions button:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* =========================
+   BUY NOW
+   ========================= */
+
+.buy-button {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  ) !important;
+
+  box-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05),
+    0 10px 10px rgba(0, 0, 0, 0.1);
+}

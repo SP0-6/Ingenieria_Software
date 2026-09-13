@@ -6,7 +6,9 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .crud-container {

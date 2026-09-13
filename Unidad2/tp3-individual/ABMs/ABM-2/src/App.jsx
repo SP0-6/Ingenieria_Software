@@ -30,17 +30,17 @@ const App = () => {
 
   return (
     <div className="crud-container">
-      <h2 className="crud-title">React CRUD App</h2>
+      <h2 className="crud-title">ABM N°4 - Usuarios</h2>
       <div className="input-group">
         <input
           className="crud-input"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          placeholder="Enter Here"
+          placeholder="Ingrese el usuario"
         />
         <button className="crud-button add " onClick={adduser}>
-          {editingIndex !== null ? "Update " : "Add"}
+          {editingIndex !== null ? "Modificar" : "Agregar"}
         </button>
       </div>
 
@@ -53,13 +53,13 @@ const App = () => {
                 className="crud-button edit"
                 onClick={() => editUser(index)}
               >
-                Edit
+                Editar
               </button>
               <button
                 className="crud-button edit"
                 onClick={() => deleteUser(index)}
               >
-                Delete
+                Eliminar
               </button>
             </div>
           </li>
